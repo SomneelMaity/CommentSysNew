@@ -2,7 +2,6 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import "./App.css";
 import CommentSection from "./components/CommentSection";
-import CommentReply from "./components/CommentReply";
 
 const App = () => {
   return (
@@ -24,9 +23,6 @@ const App = () => {
       <br />
       <div className="Comment-Section-Body">
         <CommentSection />
-      </div>
-      <div className="Comment-Reply-Body">
-        <CommentReply />
       </div>
     </div>
   );

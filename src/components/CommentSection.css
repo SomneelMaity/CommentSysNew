@@ -313,3 +313,151 @@ input[type="text"] {
   gap: 0px;
   opacity: 0px;
 }
+
+.comment-post-section {
+  display: flex;
+}
+
+.comment-post-section-line {
+  width: 188.04px;
+  height: 0px;
+  top: 690px;
+  left: 70.46px;
+  gap: 0px;
+  border: 4px 0px 0px 0px;
+  opacity: 0px;
+  transform: rotate(90deg);
+  border: 4px solid #0000005c;
+  margin-top: 100px;
+}
+
+.comment-post-section-input {
+  width: 640px;
+  height: 194px;
+  top: 684px;
+  left: 94px;
+  gap: 0px;
+  border-radius: 20px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: #ffffff;
+  border: 1px solid #0000003d;
+}
+
+.comment-post-section-send {
+  display: flex;
+  justify-content: stretch;
+}
+.comment-post-section-attachment {
+  display: flex;
+  justify-content: space-between;
+}
+
+.B {
+  width: 20.41px;
+  height: 22px;
+  top: 821px;
+  left: 114.41px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 20.2px;
+  font-weight: 600;
+  line-height: 24.45px;
+  text-align: center;
+  color: #7e7e7e;
+}
+
+.I {
+  width: 20.41px;
+  height: 22px;
+  top: 821px;
+  left: 144.09px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 20.2px;
+  font-weight: 600;
+  line-height: 24.45px;
+  text-align: center;
+  color: #7e7e7e;
+}
+
+.U {
+  width: 20.41px;
+  height: 22px;
+  top: 821px;
+  left: 178.41px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 20.2px;
+  font-weight: 600;
+  line-height: 24.45px;
+  text-align: center;
+  color: #7e7e7e;
+}
+
+.attachment {
+  width: 19.48px;
+  height: 21px;
+  top: 822px;
+  left: 219.22px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.comment-post-section-line2 {
+  width: 591.77px;
+  height: 0px;
+  top: 798px;
+  left: 115.33px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  transform: rotate(-0.1deg);
+  border: 1px solid #000000;
+}
+
+.comment-post-section-cancel {
+  margin-left: 300px;
+  margin-top: 5px;
+  width: 139px;
+  height: 55px;
+  top: 4px;
+  left: -56px;
+  gap: 0px;
+  border-radius: 20%;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: #e5e5e5;
+  border: 1px solid #171818;
+}
+
+.comment-post-section-cancel-text {
+  width: 92px;
+  height: 23px;
+  top: 20px;
+  left: -32px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 18.5px;
+  font-weight: 600;
+  line-height: 22.39px;
+  text-align: center;
+}
+
+.send-button-2 {
+  margin-top: 25px;
+  margin-left: 15px;
+  right: 10px;
+  top: 125%;
+  transform: translateY(-50%);
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  cursor: pointer;
+}

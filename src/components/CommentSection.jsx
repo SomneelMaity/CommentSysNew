@@ -15,15 +15,21 @@ const CommentSection = () => {
       </div>
       <div className="formatting-options">
         <button>
-          <b>B</b>
+          <b className="B">B</b>
         </button>
         <button>
-          <i>I</i>
+          <i className="I">I</i>
         </button>
         <button>
-          <u>U</u>
+          <u className="U">U</u>
         </button>
-        <button>Link</button>
+        <button>
+          <img
+            className="attachment"
+            src="https://s3-alpha-sig.figma.com/img/0564/312d/7d88600b4b3537b759fbddd90314763d?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZiUx2PVXl~Ew9IaLcpD5ottT7d7Cnl3Yuv4ix6bCTNekHJJhemM9NUi5RUjzPg0ndql1z-Mj~Ev0c6W7~k9ZzbN3d8weCHOG0Hudh3rp1g1uTKE45Q1oIFi1qmQw-Ks8zaFPpufVFbJflTldwUgvJmVTrYkR0GQQlotk-RgxYFPa7dm2WVIi~JkiLLlmNQsN8~wN1f9K2QZHzEgksoZLO1SKejgcPb1yZVTZYuS-82vJDhpx3oansosWFy7dT5U3N~IJFX9E7BG7lqte~Ql442ou2CY0Vs0V6ua5ZVOy8P1ZPYagUOc6mHTM1nk6sB2M1abZBeMR4Rv21H0ppPjMNA__"
+            alt=""
+          />
+        </button>
       </div>
       {/* Comment List */}
       <br />
@@ -92,6 +98,39 @@ const CommentSection = () => {
           src="https://s3-alpha-sig.figma.com/img/9829/a87f/0aa855da9cfd3267b5a69c0fbc5f467b?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gPyLo3Gp0sEZFiYB1jGVY59RKde09viVQfXiufUCPgQMGpJxnWHxgbiQc7LsNT3nypIC4WJYLOnxc1A~oEE-y13YT2EsW4xxN5V3jDrbVQ8fxJXDmtio~jqCbIw0zFRseAP-pxnlmM12eHAq0H9~Tm2KciiUm~5I-3puWoCXtobMXwirEDFW8NSVZsoEu8s7iLZiZNGfkg4rcAJOzZZgTKStkmq2q7DN5IyLQHODv~ykGJbXJCsgek5tYnJo8j7qpzPOnrhJEjrst2Ux6QuiUUcLvsJDvJ9CsbeLfJdX1IIkMCGS5OOQ0rc6Ln3YCyiIE0aBcLL8rxLBGQ1mEYAw8Q__"
           alt=""
         />
+      </div>
+      {/* Reply Section */}
+      <div className="comment-post-section">
+        <hr className="comment-post-section-line" />
+        <div className="comment-post-section-input">
+          <input className="" type="text" />
+          <hr className="comment-post-section-line2" />
+          <div className="comment-post-section-send">
+            <div className="formatting-options">
+              <button>
+                <b className="B">B</b>
+              </button>
+              <button>
+                <i className="I">I</i>
+              </button>
+              <button>
+                <u className="U">U</u>
+              </button>
+              <button>
+                <img
+                  className="attachment"
+                  src="https://s3-alpha-sig.figma.com/img/0564/312d/7d88600b4b3537b759fbddd90314763d?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZiUx2PVXl~Ew9IaLcpD5ottT7d7Cnl3Yuv4ix6bCTNekHJJhemM9NUi5RUjzPg0ndql1z-Mj~Ev0c6W7~k9ZzbN3d8weCHOG0Hudh3rp1g1uTKE45Q1oIFi1qmQw-Ks8zaFPpufVFbJflTldwUgvJmVTrYkR0GQQlotk-RgxYFPa7dm2WVIi~JkiLLlmNQsN8~wN1f9K2QZHzEgksoZLO1SKejgcPb1yZVTZYuS-82vJDhpx3oansosWFy7dT5U3N~IJFX9E7BG7lqte~Ql442ou2CY0Vs0V6ua5ZVOy8P1ZPYagUOc6mHTM1nk6sB2M1abZBeMR4Rv21H0ppPjMNA__"
+                  alt=""
+                />
+              </button>
+            </div>
+
+            <button className="comment-post-section-cancel">
+              <p className="comment-post-section-cancel-text">Cancel</p>
+            </button>
+            <button className="send-button-2">Send</button>
+          </div>
+        </div>
       </div>
     </div>
   );
