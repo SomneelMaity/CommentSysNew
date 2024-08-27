@@ -8,8 +8,14 @@
   font-weight: bold;
   display: flex;
   justify-content: flex-end;
+  margin-right: 700px;
 }
 .Comment-Section-Body {
   margin-top: 25px;
   margin-left: 10px;
+}
+
+.google-signin {
+  display: flex;
+  justify-content: flex-end;
 }

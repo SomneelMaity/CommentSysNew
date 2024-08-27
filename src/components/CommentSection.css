@@ -15,6 +15,7 @@ body {
   background: #ffffff;
   box-shadow: 0px 0px 4px 5px #0000001a;
   margin-left: 30px;
+  margin-top: 15px;
 }
 
 .comment-section-header {
@@ -38,7 +39,7 @@ body {
 .tabs {
   list-style-type: none;
   display: flex;
-  margin-left: 225px;
+  margin-left: 550px;
   gap: 10px;
 }
 
@@ -180,6 +181,7 @@ input[type="text"] {
   left: 5px;
   gap: 0px;
   opacity: 0px;
+  cursor: pointer;
 }
 
 .user-profile-thumb-reaction {
@@ -460,4 +462,343 @@ input[type="text"] {
   border-radius: 5px;
   padding: 8px 20px;
   cursor: pointer;
+}
+
+.Albert {
+  width: 700px;
+  height: 202px;
+  top: 1049px;
+  left: 71px;
+  gap: 0px;
+  opacity: 0px;
+  color: #000000;
+
+  margin-left: 60px;
+}
+
+.Albert-Pic {
+  width: 44px;
+  height: 44px;
+  top: 3px;
+  left: 12px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 50%;
+}
+
+.Albert-Name {
+  width: 142px;
+  height: 22px;
+  top: 14px;
+  left: 70px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 20.5px;
+  font-weight: 600;
+  line-height: 24.81px;
+  text-align: left;
+  color: #2e2e2e;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.Albert-photo-pic {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Albert-text {
+  margin-top: 15px;
+  width: 598px;
+  height: 62px;
+  top: 71px;
+  left: 12px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  text-align: left;
+  color: #787777;
+}
+
+.Albert-reactions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Albert-background {
+  width: 1px;
+  height: 18px;
+  top: 159px;
+  left: 59px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.Albert-reply {
+  width: 50px;
+  height: 21px;
+  top: 158px;
+  left: 78px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 15.5px;
+  font-weight: 400;
+  line-height: 18.76px;
+  text-align: left;
+  color: #3b3b3b;
+  margin-left: 10px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.Albert-background-2 {
+  width: 1px;
+  height: 17px;
+  top: 160px;
+  left: 146px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+.Albert-time {
+  width: 48px;
+  height: 19px;
+  top: 158px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 15.5px;
+  font-weight: 600;
+  line-height: 18.76px;
+  text-align: left;
+  color: #b2b2b2;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.Bessie {
+  width: 639px;
+  height: 202px;
+  top: 1248px;
+  left: 127px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 100px;
+}
+.Bessie-photo-pic {
+  display: flex;
+  justify-content: flex-start;
+}
+.Bessie-pic {
+  width: 44px;
+  height: 44px;
+  top: 21px;
+  left: 11px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 50%;
+}
+.Bessie-name {
+  width: 161px;
+  height: 25px;
+  top: 30px;
+  left: 73px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 25.41px;
+  text-align: left;
+  color: #303030;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.Bessie-text {
+  margin-left: 5px;
+  margin-top: 10px;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.63px;
+  text-align: left;
+}
+.Bessie-rections {
+  display: flex;
+  justify-content: flex-start;
+}
+.Bessie-reaction-cnt {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.Bessie-love-emoji {
+  width: 24px;
+  height: 24px;
+  top: 11px;
+  left: 11px;
+  gap: 0px;
+  border-radius: 11.75px 0px 0px 0px;
+  opacity: 0px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.Bessie-love-emoji-cnt {
+  width: 11px;
+  height: 20px;
+  top: 13px;
+  left: 42px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 18.2px;
+  font-weight: 600;
+  line-height: 22.03px;
+  text-align: center;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.Bessie-background {
+  width: 1px;
+  height: 18px;
+  top: 149px;
+  left: 139px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.Bessie-reply {
+  width: 50px;
+  height: 21px;
+  top: 148px;
+  left: 158px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 15.5px;
+  font-weight: 400;
+  line-height: 18.76px;
+  text-align: left;
+  color: #434343;
+  margin-top: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.Bessie-background-2 {
+  width: 2px;
+  height: 18px;
+  top: 149px;
+  left: 226px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.Bessie-time {
+  width: 58px;
+  height: 19px;
+  top: 148px;
+  left: 245px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 16.5px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  color: #aeaeae;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.James {
+  width: 639px;
+  height: 202px;
+  top: 1462px;
+  left: 170px;
+  gap: 0px;
+  opacity: 0px;
+  color: #000000;
+  margin-left: 150px;
+  margin-bottom: 10px;
+}
+.James-photo-pic {
+  display: flex;
+  justify-content: flex-start;
+}
+.James-pic {
+  width: 44px;
+  height: 44px;
+  top: 21px;
+  left: 11px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 50%;
+}
+.James-name {
+  width: 161px;
+  height: 25px;
+  top: 30px;
+  left: 73px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 25.41px;
+  text-align: left;
+  color: #303030;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.loading {
+  width: 700px;
+  height: 77px;
+  top: 1642px;
+  left: 66px;
+  padding: 25px 299px 29px 288px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.loading-img {
+  width: 19px;
+  height: 20px;
+  top: 26px;
+  left: 288px;
+  gap: 0px;
+  opacity: 0px;
+}
+.Loading-text {
+  width: 86px;
+  height: 23px;
+  top: 25px;
+  left: 315px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 15.5px;
+  font-weight: 600;
+  line-height: 18.76px;
+  text-align: left;
+  color: #b1b1b1;
+  margin-left: 10px;
 }

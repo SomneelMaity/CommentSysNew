@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <div className="google-signin-button">
-        <Button variant="light">
+        <Button className="google-signin" variant="light">
           <span>
             <img
               className="google-image"
@@ -18,6 +18,7 @@ const App = () => {
           </span>
         </Button>{" "}
       </div>
+      <br />
       <br />
       <br />
       <br />
